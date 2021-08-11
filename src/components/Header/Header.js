@@ -3,11 +3,11 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
   <Container>
-    <div1>
+    <Div1>
       <Link href="/">
         <a
           href=""
@@ -20,8 +20,8 @@ const Header = () => (
           <span>Portfolio</span>
         </a>
       </Link>
-    </div1>
-    <div2>
+    </Div1>
+    <Div2>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -37,8 +37,18 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
-      
-    </div2>
+    </Div2>
+    <Div3>
+      <SocialIcons href="https://github.com">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://linkedin.com">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://instagram.com">
+        <AiFillInstagram size="3rem" />
+      </SocialIcons>
+    </Div3>
   </Container>
 )
 
