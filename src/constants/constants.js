@@ -38,9 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started as QA at Artisansoft, Dehradun', },
+  { year: 2019, text: 'On Septembar, Join RubicoIT as Associate Software Developer, Dehradun' },
+  { year: 2020, text: 'Started Working on some Projects Related to CRM. Somehow lots of work is still Pending', },
+  { year: 2021, text: 'Trying to  Start my own platform', },
 ];
